@@ -8,7 +8,7 @@
 
 *Ссылки в браузере на развернутые веб-сервисы:*
 - Моя страничка с опубликованная на Nginx через внешний адрес через балансировщик от Yndex Cloud [WEB-сайт](http://158.160.137.9/)
-- Веб интерфейс с логами моего nginx-сервера в [Kibana]((((http://158.160.96.134:5601/app/discover#/?_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-15m,to:now))&_a=(columns:!(),filters:!(),index:dba56bd0-3611-11ef-8806-290a3ef9f9f8,interval:auto,query:(language:kuery,query:''),sort:!(!('@timestamp',desc)))
+- Веб интерфейс с логами моего nginx-сервера в [Kibana][(http://158.160.96.134:5601/app/discover#/?_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-15m,to:now))&_a=(columns:!(),filters:!(),index:dba56bd0-3611-11ef-8806-290a3ef9f9f8,interval:auto,query:(language:kuery,query:''),sort:!(!('@timestamp',desc)))]
 - Веб инетерфейс Графаны с логами со всех серверов инфраструктуры: [Grafana](http://158.160.62.41:3000/d/rYdddlPWk/node-exporter-full?orgId=1&refresh=1m&var-datasource=default&var-job=node&var-node=192.168.30.31:9100&var-diskdevices=%5Ba-z%5D%2B%7Cnvme%5B0-9%5D%2Bn%5B0-9%5D%2B%7Cmmcblk%5B0-9%5D%2B)
 
 *План выолнения:*  
