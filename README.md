@@ -67,10 +67,11 @@
  ![ELK](https://github.com/sash3939/Devops_Cource_work/assets/156709540/8e4ef7d3-12dd-4d9a-a3d4-0a56d124abc0)
 
 
- - Идем дальше. Разворачиваем постпенно весь ЕЛК-стек. Депломи Кибану под визуализацию данных, которые бдуем получать через filebeat агента.
+ - Идем дальше. Разворачиваем постепенно весь ELK-stack. Депломи Kibana под визуализацию данных, которые бдуем получать через filebeat агента.
 
-   ![alt text](https://github.com/mezhibo/Course_work/blob/9cdd71da7fd6afd3946ff697548cf6878d2fc820/IMG/install%20elastic.jpg)
+![Kibana](https://github.com/sash3939/Devops_Cource_work/assets/156709540/ebda8c52-f7b2-4e5e-ae8c-59fb4350665a)
 
+  
 - Теперь ставим и сам filebeat для отправки логов в Elastic и меням права на паки, чтобы не было проблем с доступ к файлам логов.
 
 ![alt text](https://github.com/mezhibo/Course_work/blob/9cdd71da7fd6afd3946ff697548cf6878d2fc820/IMG/Install%20filebeat.jpg)
