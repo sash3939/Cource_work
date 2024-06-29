@@ -103,12 +103,13 @@
 
 
 - Роутер
-![alt text](https://github.com/mezhibo/Course_work/blob/9cdd71da7fd6afd3946ff697548cf6878d2fc820/IMG/router.jpg)
+ ![router](https://github.com/sash3939/Devops_Cource_work/assets/156709540/f873e329-82da-4cd1-9eeb-b935f092604d)
 
 - Балансировщик с внешним адресом и распределением нагрузки на веб-сервера Nginx
-  ![alt text](https://github.com/mezhibo/Course_work/blob/9cdd71da7fd6afd3946ff697548cf6878d2fc820/IMG/alb.jpg)
+ ![balancer](https://github.com/sash3939/Devops_Cource_work/assets/156709540/8abff758-0d0a-4d22-b242-c16ebc7fddd6)
 
-- Ну и не забываем о самом главном-псмотреть создаются ли у нас реервные копии наших дисков.
+
+- И резервные копии наших дисков.
 
 ![alt text](https://github.com/mezhibo/Course_work/blob/9cdd71da7fd6afd3946ff697548cf6878d2fc820/IMG/shedule%20shanshot.jpg)
 
