@@ -59,7 +59,8 @@
 
   - Далее идет деплой Графаны для получения и визуализации метрик с наших серверов, и установка дашборда
 
-     ![alt text](https://github.com/mezhibo/Course_work/blob/9cdd71da7fd6afd3946ff697548cf6878d2fc820/IMG/install%20grafana.jpg)
+    ![grafana deploy](https://github.com/sash3939/Devops_Cource_work/assets/156709540/2f99b056-bbf8-4ac6-bcbd-c9b38c3b838f)
+
 
   - Следующим шагом идет установка и настройка ЕКЛ-стека, начнем сервера для централизованного сбора и хранения логов ElsticSearch
 
