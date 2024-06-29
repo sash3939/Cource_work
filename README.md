@@ -90,14 +90,17 @@
 
 - 2 nginx сервера в разных подсетях и в рахных зонах дсотупности для более высокой отказустойчивости кластера.
 
+-------
+
+
 - Смотрим все и впорядке с фаерволом на стороне Yndex Cloud, а именно Security Group
 
 ![Security groups](https://github.com/sash3939/Devops_Cource_work/assets/156709540/4b81bd20-3795-4114-acef-a8737de2a4bc)
   
-
-
 - Смотрим подсети
-![alt text](https://github.com/mezhibo/Course_work/blob/9cdd71da7fd6afd3946ff697548cf6878d2fc820/IMG/network_sub_net.jpg)
+
+![Subnets](https://github.com/sash3939/Devops_Cource_work/assets/156709540/892433c2-16f5-41e5-99d7-b3c621a0d4b5)
+
 
 - Роутер
 ![alt text](https://github.com/mezhibo/Course_work/blob/9cdd71da7fd6afd3946ff697548cf6878d2fc820/IMG/router.jpg)
