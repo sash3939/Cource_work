@@ -74,7 +74,8 @@
   
 - Теперь ставим и сам filebeat для отправки логов в Elastic и меням права на паки, чтобы не было проблем с доступ к файлам логов.
 
-![alt text](https://github.com/mezhibo/Course_work/blob/9cdd71da7fd6afd3946ff697548cf6878d2fc820/IMG/Install%20filebeat.jpg)
+![filebeat](https://github.com/sash3939/Devops_Cource_work/assets/156709540/33436f5d-256c-4082-b976-d2264bf48f98)
+
 
 - И в конце отрабатывает последний скрипт по деплою Prometheus сервера, что будет забирать данные с Node exporter и отправлять для визуализации в Kibana.
 
