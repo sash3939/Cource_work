@@ -62,9 +62,10 @@
     ![grafana deploy](https://github.com/sash3939/Devops_Cource_work/assets/156709540/2f99b056-bbf8-4ac6-bcbd-c9b38c3b838f)
 
 
-  - Следующим шагом идет установка и настройка ЕКЛ-стека, начнем сервера для централизованного сбора и хранения логов ElsticSearch
+  - Далее ставим ELK-stack, начнем сервера для централизованного сбора и хранения логов ElsticSearch
 
- ![alt text](https://github.com/mezhibo/Course_work/blob/9cdd71da7fd6afd3946ff697548cf6878d2fc820/IMG/install%20elastic.jpg)
+ ![ELK](https://github.com/sash3939/Devops_Cource_work/assets/156709540/8e4ef7d3-12dd-4d9a-a3d4-0a56d124abc0)
+
 
  - Идем дальше. Разворачиваем постпенно весь ЕЛК-стек. Депломи Кибану под визуализацию данных, которые бдуем получать через filebeat агента.
 
