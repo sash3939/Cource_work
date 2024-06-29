@@ -125,22 +125,24 @@
 
 - Переходим по ip адресу нашего балансировщиа и видим что он переносит нас на страницу одного из Веб-серверов Nginx согласно правилу Round-Robin.
 
-![web page cource work](https://github.com/sash3939/Devops_Cource_work/assets/156709540/615c918e-b631-48d7-8765-c4eadb32c54d)
+![web page cource work](https://github.com/sash3939/Cource_work/assets/156709540/f32f597a-5f85-430d-9abf-08404c24f3af)
+
 
 - Теперь глянем наши логи с nginx
 - Супер! Логи доступа к Nginx тоже видим.
 
-![logs nginx](https://github.com/sash3939/Devops_Cource_work/assets/156709540/7ac9ca8b-4fbc-4d1e-9b70-ead76186a907)
-
+![nginx logs](https://github.com/sash3939/Cource_work/assets/156709540/120f8ec5-6657-4052-9e33-7d128f4edbed)
 
 - И теперь глянем сбор метрик нагрузки на наши сервера.
 - Заходим, видим настроенный дашборд
 
-![dashboard](https://github.com/sash3939/Devops_Cource_work/assets/156709540/fc6ede06-dcb4-4f6e-80ac-cc44776cb873)
+![dashboard](https://github.com/sash3939/Cource_work/assets/156709540/73efa5e8-a856-47ba-8b44-2e65f95f5819)
+
 
 - И проверим все ли серверы шлют данные в Prometheus:
 
-![sended](https://github.com/sash3939/Devops_Cource_work/assets/156709540/ed9586d0-66ce-47ba-89de-5b7fa1e46854)
+![prometheus sended](https://github.com/sash3939/Cource_work/assets/156709540/1f15dd6b-43c7-4134-b2d1-f5b9303eaa9f)
+
 
 
 *В пару нажатий на клавиатуре создана отказоутойчивая инраструктура и системой мониторинга, логирования. балансировкой входящего траффика и автоматиеческого резервирования дисков*
