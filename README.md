@@ -92,7 +92,8 @@
 
 - Смотрим все и впорядке с фаерволом на стороне Yndex Cloud, а именно Security Group
 
-![alt text](https://github.com/mezhibo/Course_work/blob/9cdd71da7fd6afd3946ff697548cf6878d2fc820/IMG/security_group.jpg)  
+![Security groups](https://github.com/sash3939/Devops_Cource_work/assets/156709540/4b81bd20-3795-4114-acef-a8737de2a4bc)
+  
 
 
 - Смотрим подсети
