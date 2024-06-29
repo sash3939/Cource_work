@@ -114,10 +114,9 @@
 ![snapshot](https://github.com/sash3939/Devops_Cource_work/assets/156709540/b673ab17-0a3b-4fad-aed6-11b2e3865124)
 
 
-- Ну и теперь самый волнующий момент, все ли работает?
-- Переходим по ip адресу нашего балансировщиа и, ~О ЧУДО!!!~  видим что он переносит нас на страницу одного из Веб-серверов Nginx согласно правилу Round-Robin.
+- Переходим по ip адресу нашего балансировщиа и видим что он переносит нас на страницу одного из Веб-серверов Nginx согласно правилу Round-Robin.
 
-![alt text](https://github.com/mezhibo/Course_work/blob/9cdd71da7fd6afd3946ff697548cf6878d2fc820/IMG/web_nginx.jpg)
+![web page cource work](https://github.com/sash3939/Devops_Cource_work/assets/156709540/615c918e-b631-48d7-8765-c4eadb32c54d)
 
 - Теперь глянем наши логи с nginx
 - Супер! Логи доступа к Nginx тоже видим.
