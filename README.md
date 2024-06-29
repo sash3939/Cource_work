@@ -26,65 +26,71 @@
   
    ![After terraform apply](https://github.com/sash3939/Cource_work/assets/156709540/0545bbf8-a749-4ac2-985d-74abee5fa630)
 
-   ![output.sh](https://github.com/sash3939/Devops_Cource_work/assets/156709540/1a8966e0-cd47-436f-b0f2-1da86489f90b)
+   ![output.sh](https://github.com/sash3939/Cource_work/assets/156709540/9a16ffcd-eda3-4242-aaa1-53d86acef97b)
+
 
   
 - Далее запускаем плейбук настройки бастион-хоста как джмап-сервера для доступа внутрь нашей закрытйо из вне инфраструктуры и настройкой через него как через джамп всех хостов в нашей сети
 
-  ![bastion](https://github.com/sash3939/Devops_Cource_work/assets/156709540/67300204-cad6-4efe-b9cf-eea7acd627f4)
+  ![bastion](https://github.com/sash3939/Cource_work/assets/156709540/70684e53-56c5-4e9e-bb8a-1a892a10f87b)
 
 
-  - Далее запускаем скрипт где у нас написан порядок автоматического выполнения наших Ansible плейбуков по очереди
 
-  ![run deploy sh playbooks](https://github.com/sash3939/Devops_Cource_work/assets/156709540/d9f760f1-1ca4-4d54-a744-333c7b08e9e6)
+ - Далее запускаем скрипт где у нас написан порядок автоматического выполнения наших Ansible плейбуков по очереди
 
+  ![run playbooks](https://github.com/sash3939/Cource_work/assets/156709540/b76ff9bf-aea2-48c1-9a32-66ec08815a81)
 
-  ![process](https://github.com/sash3939/Devops_Cource_work/assets/156709540/4a7a33ae-2505-4839-acd5-e5c5de829511)
+  ![process](https://github.com/sash3939/Cource_work/assets/156709540/75331a68-371b-45db-b97a-8821a6dc4c96)
 
 -----
 
   - Теперь видим как у наш пошел пошел плейбук с ролью по настройки зеркальных Nginx-серверов с готовым сайтом-страничкой.
 
-  ![web](https://github.com/sash3939/Devops_Cource_work/assets/156709540/a62ab641-fcab-4352-834c-b22ef22a6814)
+  ![web](https://github.com/sash3939/Cource_work/assets/156709540/57fb1ec8-a5ff-458f-a9a4-db36908a2b5a)
+
 
   - После него по очереди по списку идет установка на хосты Node_exportera для отправки наших метрик в Prometheus
 
-    ![run](https://github.com/sash3939/Devops_Cource_work/assets/156709540/be871a2b-b77d-4a48-8f9d-c5d9d4a84c04)
+   ![node_exporter](https://github.com/sash3939/Cource_work/assets/156709540/c120ce9e-e0b8-498c-b45e-8bef854270bd)
+
   - Prometheus после повторной поптыки поставился отдельно
 
-   ![prometheus](https://github.com/sash3939/Devops_Cource_work/assets/156709540/21bf3b7b-4aad-4bf2-86a0-7803dcf8cec4)
-   
-   ![web grafana](https://github.com/sash3939/Devops_Cource_work/assets/156709540/2001ec1e-1196-4222-b3fb-ea0a5ce61117)
+   ![prometheus node_exporter](https://github.com/sash3939/Cource_work/assets/156709540/09c35d25-4883-4419-922d-2bcee7ff3fa5)
+
+   ![web grafana](https://github.com/sash3939/Cource_work/assets/156709540/0383b749-693d-4aad-b3a9-0e0f6caf3fb0)
 
 
   - Далее идет деплой Графаны для получения и визуализации метрик с наших серверов, и установка дашборда
 
-    ![grafana deploy](https://github.com/sash3939/Devops_Cource_work/assets/156709540/2f99b056-bbf8-4ac6-bcbd-c9b38c3b838f)
+   ![grafana deploy](https://github.com/sash3939/Cource_work/assets/156709540/6c949455-5ae0-4ad4-bdb3-d1e29e36a7f6)
 
 
   - Далее ставим ELK-stack, начнем сервера для централизованного сбора и хранения логов ElsticSearch
 
- ![ELK](https://github.com/sash3939/Devops_Cource_work/assets/156709540/8e4ef7d3-12dd-4d9a-a3d4-0a56d124abc0)
+   ![ELK deploy](https://github.com/sash3939/Cource_work/assets/156709540/a925a8f4-3dea-43fd-a55e-f685fd7a7de4)
 
 
  - Идем дальше. Разворачиваем постепенно весь ELK-stack. Депломи Kibana под визуализацию данных, которые бдуем получать через filebeat агента.
 
-![Kibana](https://github.com/sash3939/Devops_Cource_work/assets/156709540/ebda8c52-f7b2-4e5e-ae8c-59fb4350665a)
+![Kibana deploy](https://github.com/sash3939/Cource_work/assets/156709540/504dd92c-3e43-47a0-98a8-380c6f2a15e4)
 
   
 - Теперь ставим и сам filebeat для отправки логов в Elastic и меням права на паки, чтобы не было проблем с доступ к файлам логов.
 
-![filebeat](https://github.com/sash3939/Devops_Cource_work/assets/156709540/33436f5d-256c-4082-b976-d2264bf48f98)
+![filebeat deploy](https://github.com/sash3939/Cource_work/assets/156709540/fd89f50b-5da7-48e0-b210-3a879ba72e9f)
+![done filebeat](https://github.com/sash3939/Cource_work/assets/156709540/124bbd0b-7b93-48b0-b3c4-867123171af9)
+![filebeat deploy ok](https://github.com/sash3939/Cource_work/assets/156709540/4250a0d0-b516-4fd8-818e-72affd1830b3)
 
 
 - И в конце отрабатывает последний скрипт по деплою Prometheus сервера, что будет забирать данные с Node exporter и отправлять для визуализации в Kibana.
 
-![alt text](https://github.com/mezhibo/Course_work/blob/9cdd71da7fd6afd3946ff697548cf6878d2fc820/IMG/install%20prometheus.jpg)
+![prometheus deploy](https://github.com/sash3939/Cource_work/assets/156709540/13be12bd-5b72-4c50-a3e1-5377ca8f1bb7)
 
-- После отработки всех плейбуков и террформ манифестов идем в консоль Yndex Cloud и проверяем что у нас все верно создалось.
+----
 
-![YC](https://github.com/sash3939/Devops_Cource_work/assets/156709540/63cb397d-4e49-4f34-8460-e37b87213a26)
+- После отработки всех плейбуков и терраформ манифестов идем в консоль Yandex Cloud и проверяем, что у нас все верно создалось.
 
+![YC](https://github.com/sash3939/Cource_work/assets/156709540/fe2a22bf-9148-4d4d-8811-2ce4dad70055)
 
 - Видим что все создалось как надо, сервера хранения логов и хранения метрик изолированы от внешнего мира через NAT интерфейс.
 
@@ -92,18 +98,19 @@
 
 -------
 
-
 - Смотрим все и впорядке с фаерволом на стороне Yandex Cloud, а именно Security Group
 
-![Security groups](https://github.com/sash3939/Devops_Cource_work/assets/156709540/4b81bd20-3795-4114-acef-a8737de2a4bc)
+![Sec groups](https://github.com/sash3939/Cource_work/assets/156709540/8673fb5d-f298-420d-a44b-3785a5316310)
+
   
 - Смотрим подсети
 
-![Subnets](https://github.com/sash3939/Devops_Cource_work/assets/156709540/892433c2-16f5-41e5-99d7-b3c621a0d4b5)
+![Subnets](https://github.com/sash3939/Cource_work/assets/156709540/685ca5e1-e8ac-419f-8cc0-cc03212fa43d)
 
 
 - Роутер
- ![router](https://github.com/sash3939/Devops_Cource_work/assets/156709540/f873e329-82da-4cd1-9eeb-b935f092604d)
+ ![Router](https://github.com/sash3939/Cource_work/assets/156709540/58207dc9-a96f-4138-a1e6-5439add3141e)
+
 
 - Балансировщик с внешним адресом и распределением нагрузки на веб-сервера Nginx
  ![balancer](https://github.com/sash3939/Devops_Cource_work/assets/156709540/8abff758-0d0a-4d22-b242-c16ebc7fddd6)
