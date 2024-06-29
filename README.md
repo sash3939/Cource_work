@@ -45,7 +45,7 @@
 
   - Теперь видим как у наш пошел пошел плейбук с ролью по настройки зеркальных Nginx-серверов с готовым сайтом-страничкой.
 
-  ![alt text](https://github.com/mezhibo/Course_work/blob/9cdd71da7fd6afd3946ff697548cf6878d2fc820/IMG/install_nginx.jpg)
+  ![web](https://github.com/sash3939/Devops_Cource_work/assets/156709540/a62ab641-fcab-4352-834c-b22ef22a6814)
 
   - После него по очереди по списку идет установка на хосты Node_exportera для отправки наших метрик в Prometheus
  
