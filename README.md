@@ -10,7 +10,7 @@
 - Страничка с опубликованным на Nginx через внешний адрес и балансировщик от Yandex Cloud [WEB-сайт](http://158.160.137.9/)
 - Веб интерфейс с логами nginx-сервера в [Kibana](http://158.160.96.134:5601/app/discover#/?_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-15m,to:now))&_a=(columns:!(),filters:!(),index:dba56bd0-3611-11ef-8806-290a3ef9f9f8,interval:auto,query:(language:kuery,query:''),sort:!(!('@timestamp',desc))))
 
-- Веб интерфейс Графаны с логами со всех серверов инфраструктуры: [Grafana](http://158.160.47.100:3000/d/rYdddlPWk/node-exporter-full?orgId=1&refresh=1m&var-datasource=default&var-job=node&var-node=192.168.30.31:9100&var-diskdevices=%5Ba-z%5D%2B%7Cnvme%5B0-9%5D%2Bn%5B0-9%5D%2B%7Cmmcblk%5B0-9%5D%2B)
+- Веб интерфейс Графаны с логами со всех серверов инфраструктуры: [Grafana](http://158.160.47.100:3000/explore?orgId=1&left=%7B%22datasource%22:%22PBFA97CFB590B2093%22,%22queries%22:%5B%7B%22refId%22:%22A%22,%22datasource%22:%7B%22type%22:%22prometheus%22,%22uid%22:%22PBFA97CFB590B2093%22%7D,%22editorMode%22:%22builder%22,%22expr%22:%22node_exporter_build_info%7Bgoversion%3D%5C%22go1.18.1%5C%22%7D%22,%22legendFormat%22:%22__auto%22,%22range%22:true,%22instant%22:true%7D%5D,%22range%22:%7B%22from%22:%22now-5m%22,%22to%22:%22now%22%7D%7D)
 
 *План выолнения:*  
 
