@@ -113,13 +113,15 @@
 
 
 - Балансировщик с внешним адресом и распределением нагрузки на веб-сервера Nginx
- ![balancer](https://github.com/sash3939/Devops_Cource_work/assets/156709540/8abff758-0d0a-4d22-b242-c16ebc7fddd6)
+
+ ![Balancer](https://github.com/sash3939/Cource_work/assets/156709540/b38826e6-ab8f-4916-a115-cbd407066cef)
 
 
 - И резервные копии наших дисков.
 
-![snapshot](https://github.com/sash3939/Devops_Cource_work/assets/156709540/b673ab17-0a3b-4fad-aed6-11b2e3865124)
+![Snapshots](https://github.com/sash3939/Cource_work/assets/156709540/70399f6e-67c2-47c7-bf89-ac752a6b1bdc)
 
+----
 
 - Переходим по ip адресу нашего балансировщиа и видим что он переносит нас на страницу одного из Веб-серверов Nginx согласно правилу Round-Robin.
 
