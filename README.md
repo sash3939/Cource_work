@@ -93,7 +93,7 @@
 -------
 
 
-- Смотрим все и впорядке с фаерволом на стороне Yndex Cloud, а именно Security Group
+- Смотрим все и впорядке с фаерволом на стороне Yandex Cloud, а именно Security Group
 
 ![Security groups](https://github.com/sash3939/Devops_Cource_work/assets/156709540/4b81bd20-3795-4114-acef-a8737de2a4bc)
   
@@ -111,7 +111,8 @@
 
 - И резервные копии наших дисков.
 
-![alt text](https://github.com/mezhibo/Course_work/blob/9cdd71da7fd6afd3946ff697548cf6878d2fc820/IMG/shedule%20shanshot.jpg)
+![snapshot](https://github.com/sash3939/Devops_Cource_work/assets/156709540/b673ab17-0a3b-4fad-aed6-11b2e3865124)
+
 
 - Ну и теперь самый волнующий момент, все ли работает?
 - Переходим по ip адресу нашего балансировщиа и, ~О ЧУДО!!!~  видим что он переносит нас на страницу одного из Веб-серверов Nginx согласно правилу Round-Robin.
