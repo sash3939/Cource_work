@@ -48,7 +48,10 @@
   ![web](https://github.com/sash3939/Devops_Cource_work/assets/156709540/a62ab641-fcab-4352-834c-b22ef22a6814)
 
   - После него по очереди по списку идет установка на хосты Node_exportera для отправки наших метрик в Prometheus
- 
+
+    ![run](https://github.com/sash3939/Devops_Cource_work/assets/156709540/be871a2b-b77d-4a48-8f9d-c5d9d4a84c04)
+  - Prometheus после повторной поптыки поставился отдельно
+
     ![alt text](https://github.com/mezhibo/Course_work/blob/9cdd71da7fd6afd3946ff697548cf6878d2fc820/IMG/install_node_exporter.jpg)
 
   - Далее идет деплой Графаны для получения и визуализации метрик с наших серверов, и установка дашборда
