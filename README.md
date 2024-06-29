@@ -121,7 +121,8 @@
 - Теперь глянем наши логи с nginx
 - Супер! Логи доступа к Nginx тоже видим.
 
-![alt text](https://github.com/mezhibo/Course_work/blob/9cdd71da7fd6afd3946ff697548cf6878d2fc820/IMG/web_kinaba.jpg)
+![logs nginx](https://github.com/sash3939/Devops_Cource_work/assets/156709540/7ac9ca8b-4fbc-4d1e-9b70-ead76186a907)
+
 
 - И теперь глянем сбор метрик нагрузки на наши сервера.
 - Заходим, видим настройеный дашборд
