@@ -36,7 +36,8 @@
 
   - Далее запускаем скрипт где у нас написан порядок автоматического выполнения наших Ansible плейбуков по очереди
 
-   ![alt text](https://github.com/mezhibo/Course_work/blob/9cdd71da7fd6afd3946ff697548cf6878d2fc820/IMG/6.jpg)
+  ![run deploy sh playbooks](https://github.com/sash3939/Devops_Cource_work/assets/156709540/d9f760f1-1ca4-4d54-a744-333c7b08e9e6)
+
 
    ![alt text](https://github.com/mezhibo/Course_work/blob/9cdd71da7fd6afd3946ff697548cf6878d2fc820/IMG/5.jpg)
 
