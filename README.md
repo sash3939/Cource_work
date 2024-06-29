@@ -22,9 +22,9 @@
   *Ход выполнения:*
 
   - Запускаем terraform apply и раскатываем все манифесты с описанием развертки.
-  - Через функционал Terraform постредсвом манифеста output.tf выводим ip адреса созданных истансов и забираем их через скрипт output.sh в host.ini фаидл для работы Ansible.
+  - Через функционал Terraform постредсвом манифеста output.tf выводим ip адреса созданных истансов и забираем их через скрипт output.sh в host.ini файл для работы Ansible.
   
-   ![alt text](https://github.com/mezhibo/Course_work/blob/9cdd71da7fd6afd3946ff697548cf6878d2fc820/IMG/1.jpg)
+   [After terraform apply](https://github.com/sash3939/Devops_Cource_work/assets/156709540/5b3cc46f-a99e-4554-8c19-9f7bbed38d5c)
 
    ![alt text](https://github.com/mezhibo/Course_work/blob/9cdd71da7fd6afd3946ff697548cf6878d2fc820/IMG/2.jpg)
   
