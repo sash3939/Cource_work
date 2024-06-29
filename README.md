@@ -39,7 +39,8 @@
   ![run deploy sh playbooks](https://github.com/sash3939/Devops_Cource_work/assets/156709540/d9f760f1-1ca4-4d54-a744-333c7b08e9e6)
 
 
-   ![alt text](https://github.com/mezhibo/Course_work/blob/9cdd71da7fd6afd3946ff697548cf6878d2fc820/IMG/5.jpg)
+  ![process](https://github.com/sash3939/Devops_Cource_work/assets/156709540/4a7a33ae-2505-4839-acd5-e5c5de829511)
+
 
 
   - Теперь видим как у наш пошел пошел плейбук с ролью по настройки зеркальных Nginx-серверов с готовым сайтом-страничкой.
