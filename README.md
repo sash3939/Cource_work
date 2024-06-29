@@ -31,7 +31,8 @@
   
 - Далее запускаем плейбук настройки бастион-хоста как джмап-сервера для доступа внутрь нашей закрытйо из вне инфраструктуры и настройкой через него как через джамп всех хостов в нашей сети
 
-  ![alt text](https://github.com/mezhibo/Course_work/blob/9cdd71da7fd6afd3946ff697548cf6878d2fc820/IMG/3.jpg)
+  ![bastion](https://github.com/sash3939/Devops_Cource_work/assets/156709540/67300204-cad6-4efe-b9cf-eea7acd627f4)
+
 
   ![alt text](https://github.com/mezhibo/Course_work/blob/9cdd71da7fd6afd3946ff697548cf6878d2fc820/IMG/4.jpg)
 
