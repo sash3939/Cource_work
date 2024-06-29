@@ -26,7 +26,8 @@
   
    ![After terraform apply](https://github.com/sash3939/Devops_Cource_work/assets/156709540/5b3cc46f-a99e-4554-8c19-9f7bbed38d5c)
 
-   ![alt text](https://github.com/mezhibo/Course_work/blob/9cdd71da7fd6afd3946ff697548cf6878d2fc820/IMG/2.jpg)
+   ![output.sh](https://github.com/sash3939/Devops_Cource_work/assets/156709540/1a8966e0-cd47-436f-b0f2-1da86489f90b)
+
   
 - Далее запускаем плейбук настройки бастион-хоста как джмап-сервера для доступа внутрь нашей закрытйо из вне инфраструктуры и настройкой через него как через джамп всех хостов в нашей сети
 
