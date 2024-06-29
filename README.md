@@ -125,17 +125,16 @@
 
 
 - И теперь глянем сбор метрик нагрузки на наши сервера.
-- Заходим, видим настройеный дашборд
+- Заходим, видим настроенный дашборд
 
-![alt text](https://github.com/mezhibo/Course_work/blob/9cdd71da7fd6afd3946ff697548cf6878d2fc820/IMG/web_grafana.jpg)
+![dashboard](https://github.com/sash3939/Devops_Cource_work/assets/156709540/fc6ede06-dcb4-4f6e-80ac-cc44776cb873)
 
 - И проверим все ли серверы шлют данные в Prometheus:
 
-![alt text](https://github.com/mezhibo/Course_work/blob/9cdd71da7fd6afd3946ff697548cf6878d2fc820/IMG/kibana_hosts.jpg)
+![sended](https://github.com/sash3939/Devops_Cource_work/assets/156709540/ed9586d0-66ce-47ba-89de-5b7fa1e46854)
 
-*Ну вот собсвенно и все*
+
 *В пару нажатий на клавиатуре создана отказоутойчивая инраструктура и системой мониторинга, логирования. балансировкой входящего траффика и автоматиеческого резервирования дисков*
-~не считая сотни потраченных часов и нервов~
 
 
   
