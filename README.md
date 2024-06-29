@@ -41,7 +41,7 @@
 
   ![process](https://github.com/sash3939/Devops_Cource_work/assets/156709540/4a7a33ae-2505-4839-acd5-e5c5de829511)
 
-
+-----
 
   - Теперь видим как у наш пошел пошел плейбук с ролью по настройки зеркальных Nginx-серверов с готовым сайтом-страничкой.
 
@@ -52,7 +52,10 @@
     ![run](https://github.com/sash3939/Devops_Cource_work/assets/156709540/be871a2b-b77d-4a48-8f9d-c5d9d4a84c04)
   - Prometheus после повторной поптыки поставился отдельно
 
-    ![alt text](https://github.com/mezhibo/Course_work/blob/9cdd71da7fd6afd3946ff697548cf6878d2fc820/IMG/install_node_exporter.jpg)
+   ![prometheus](https://github.com/sash3939/Devops_Cource_work/assets/156709540/21bf3b7b-4aad-4bf2-86a0-7803dcf8cec4)
+   
+   ![web grafana](https://github.com/sash3939/Devops_Cource_work/assets/156709540/2001ec1e-1196-4222-b3fb-ea0a5ce61117)
+
 
   - Далее идет деплой Графаны для получения и визуализации метрик с наших серверов, и установка дашборда
 
