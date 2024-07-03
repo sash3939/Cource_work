@@ -141,7 +141,8 @@
 - И теперь глянем сбор метрик нагрузки на наши сервера.
 - Заходим, видим настроенный дашборд
 
-![dashboard](https://github.com/sash3939/Cource_work/assets/156709540/73efa5e8-a856-47ba-8b44-2e65f95f5819)
+![dashboard](https://github.com/sash3939/Cource_work/assets/156709540/c4a48a36-2a82-4084-961b-a78de033f88d)
+
 
 
 - И проверим все ли серверы шлют данные в Prometheus:
