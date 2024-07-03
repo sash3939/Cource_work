@@ -147,7 +147,8 @@
 
 - И проверим все ли серверы шлют данные в Prometheus:
 
-![prometheus sended](https://github.com/sash3939/Cource_work/assets/156709540/1f15dd6b-43c7-4134-b2d1-f5b9303eaa9f)
+![prometheus sended](https://github.com/sash3939/Cource_work/assets/156709540/de8b9443-3971-4c75-8e29-5d70eaaab5c7)
+
 
 
 
