@@ -88,7 +88,8 @@
 
 - И в конце отрабатывает последний скрипт по деплою Prometheus сервера, что будет забирать данные с Node exporter и отправлять для визуализации в Kibana.
 
-![prometheus deploy](https://github.com/sash3939/Cource_work/assets/156709540/13be12bd-5b72-4c50-a3e1-5377ca8f1bb7)
+![prometheus_deploy](https://github.com/sash3939/Cource_work/assets/156709540/4361175b-c199-4a72-9aa1-78ddda1ceaad)
+
 
 ----
 
