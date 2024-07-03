@@ -55,6 +55,8 @@
 
   - Prometheus после повторной поптыки поставился отдельно
 
+   ![prometheus](https://github.com/sash3939/Cource_work/assets/156709540/f0223f05-e0e1-448e-933c-dddbe5c599b6)
+
    ![prometheus node_exporter](https://github.com/sash3939/Cource_work/assets/156709540/09c35d25-4883-4419-922d-2bcee7ff3fa5)
 
    ![web grafana](https://github.com/sash3939/Cource_work/assets/156709540/0383b749-693d-4aad-b3a9-0e0f6caf3fb0)
